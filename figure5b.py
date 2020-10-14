@@ -4,6 +4,8 @@
 @author: GRANT_I
 AstraZeneca, Macclesfield, UK
 
+Questions to iain.grant@astrazeneca.com
+
 """
 
 # Python 3 script to fit equation 1 in manuscript to experimental data
@@ -30,10 +32,10 @@ def fit_release(t_data, rel_data):
     return(k_res, cmax)
 
 
-# From figure 2a we have a release half-life for SPL-8932 of 5.4 hours
+# From figure 2a we have a release half-life for SPL-8932 of 4.4 hours
     
 # convert to hydrolysis rate constant
-k_hy = np.log(2) / 5.4
+k_hy = np.log(2) / 4.4
 
 # Experimental Data for SPL-8932 (time in hours and total concentration in
 # plasma in micrograms per ml)
